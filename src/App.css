@@ -1,0 +1,71 @@
+
+.main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background: #7F7FD5;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.register{
+  width: 500px;
+  height: auto;
+  margin: 10px;
+  padding: 5px;
+}
+
+.btn-logout{
+  margin-left: 15px;
+}
+
+.alert{
+  height: 30px;
+  width: 500px;
+  margin: 10px;
+  border-radius: 3px;
+  background-color: rgb(255, 170, 170);
+  color: rgb(214, 9, 9);
+}
+
+.btn-log{
+  margin-top: 12px;
+}
+
+.login{
+  height: 100vh;
+}
+
+.log-box{
+  background-color: white;
+  padding: 15px;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 550px;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.home{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header{
+width: 100vw;
+}
+
+.message{
+  height: 30px;
+  width: 500px;
+  margin: 10px;
+  border-radius: 3px;
+  background-color: rgb(177, 255, 170);
+  color: rgb(23, 180, 2);
+}
